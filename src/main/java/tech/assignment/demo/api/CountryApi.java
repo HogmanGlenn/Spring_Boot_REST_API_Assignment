@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
@@ -20,6 +21,7 @@ public class CountryApi {
     @Autowired
     private CountryRepository countryRepository;
     
+    //Gets country and country unicode flag from API
     @GetMapping("/countries")
     private String getCountries() {
         String uri = "https://countriesnow.space/api/v0.1/countries";

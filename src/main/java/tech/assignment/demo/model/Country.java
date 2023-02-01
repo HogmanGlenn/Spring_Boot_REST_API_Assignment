@@ -13,6 +13,8 @@ import lombok.experimental.Tolerate;
 @Data
 @Builder
 @Entity
+
+//Model for Country.
 public class Country {
     
     @Id
@@ -21,7 +23,7 @@ public class Country {
     private String country_code;
     private String capital;
     private Integer population;
-    private URL url;
+    private URL flag_file_url;
 
     @Tolerate
     public Country() {

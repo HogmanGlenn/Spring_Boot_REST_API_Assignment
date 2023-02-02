@@ -2,7 +2,7 @@
 
 To run:
 
-1.Open and Run program in your preferred IDE
+1.Open and Run program
 
 2.Using Postman or with your preferred program, send a GET request to localhost:8080/api/countries for the name and country code for every country available,
 

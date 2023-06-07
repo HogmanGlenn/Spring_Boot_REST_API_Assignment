@@ -1,4 +1,4 @@
-# Tech_assignment_Nordea README
+# Tech_assignment_RESTAPI_SPRINGBOOT README
 
 To run:
 
